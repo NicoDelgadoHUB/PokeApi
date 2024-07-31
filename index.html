@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+
+  <body onload="solicitudAJAX()">
+    <div class="container">
+      <!-- Imagen del título -->
+      <img src="Pokemon.png" alt="Pokémon Logo" class="title-image" />
+      <label for="nPokemon">Buscador</label>
+      <input
+        type="number"
+        id="nPokemon"
+        placeholder="Ingresar un numero de Pokemon"
+        data=""
+      />
+      <button onclick="buscar()">
+        Buscar
+      </button>
+    </div>
+    <div id="wallet_container"></div>
+    <div id="ConteinerCard"></div>
+    <script src="Pokemon.js"></script>
+  </body>
+</html>
+
+

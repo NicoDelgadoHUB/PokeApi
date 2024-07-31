@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url('https://wallpaper.forfun.com/fetch/17/1706ca5cb4ccad50ad66581d53fb83eb.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 800px; /* Limita el ancho máximo del contenedor */
+  padding: 10px; /* Reduce el padding para achicar el recuadro */
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejorar legibilidad */
+  border-radius: 10px; /* Bordes redondeados */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.title-container {
+  margin-bottom: 20px; /* Espacio debajo del contenedor del título */
+}
+
+.title-image {
+  max-width: 50%; /* Ajusta el tamaño de la imagen del título para que sea más pequeña */
+  height: auto; /* Mantiene la proporción de la imagen */
+  opacity: 0.7; /* Aumenta la transparencia para permitir que el fondo sea visible a través de la imagen */
+  display: block; /* Asegura que la imagen se centre correctamente */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  color: #000000; /* Color del texto del título */
+  font-size: 1.5em; /* Tamaño del texto reducido */
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-top: 20px; /* Espacio encima del contenedor de búsqueda */
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Fondo claro para el cuadro de búsqueda */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */
+  padding: 10px;
+  max-width: 100%; /* Asegura que el cuadro de búsqueda use todo el ancho disponible */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+.search-box input {
+  flex: 1; /* Hace que el campo de entrada ocupe todo el espacio disponible */
+  padding: 10px;
+  border: 2px solid #ddd; /* Borde gris claro */
+  border-radius: 4px;
+  font-size: 1em; /* Tamaño del texto */
+  margin-right: 10px;
+}
+
+.search-box input:focus {
+  border-color: #ffcb05; /* Color del borde cuando el campo está en foco */
+  outline: none; /* Elimina el outline por defecto del navegador */
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffcb05; /* Color de fondo del botón */
+  color: #333; /* Color del texto del botón */
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #ff9f00; /* Color de fondo del botón cuando se pasa el ratón por encima */
+}
+
+#ConteinerCard {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas si es necesario */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-image: url("https://64.media.tumblr.com/4b99ebb965f1a6d4de8301a0956614c9/4cedd69c0e07c8b2-23/s1280x1920/41455a558145be953dce40155e6a51e971ce2159.png"); /* Fondo blanco para las tarjetas */
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: center;
+  border-radius: 50px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para las tarjetas */
+  overflow: hidden; /* Asegura que el contenido no se desborde de las tarjetas */
+  margin: 10px; /* Espacio entre tarjetas */
+  width: 18rem; /* Ancho fijo para las tarjetas */
+  text-align: center; /* Centra el texto dentro de las tarjetas */
+}
+
+.card img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.5em; /* Tamaño del texto del nombre del Pokémon */
+  color: #000000; /* Color del texto del nombre del Pokémon cambiado a blanco */
+  font-weight: bold; /* Hace que el texto sea negrita */
+  margin: 10px 0; /* Espacio arriba y abajo del nombre */
+}
+
+.card-text {
+  font-size: 1em; /* Tamaño del texto para la descripción, si se añade */
+  color: #666; /* Color del texto para la descripción */
+}
+
+.card-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Color de fondo azul del botón dentro de la tarjeta */
+  color: #ffffff; /* Color del texto del botón dentro de la tarjeta */
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #00f7ff; /* Color de fondo del botón dentro de la tarjeta al pasar el ratón */
+}
